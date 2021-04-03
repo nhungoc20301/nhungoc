@@ -1,0 +1,236 @@
+body, html {
+    height: 5000px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    cursor: default;
+    user-select: none;
+}
+body{
+    overflow-x:hidden;
+}
+
+/* The navigation bar */
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    z-index: 100;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: ease-in-out 0.7s;
+}
+
+/* Change background on mouse-over */
+
+.navbar a:hover {
+    border-radius: 25px;
+    background: #ddd;
+    color: black;
+}
+
+/* Background Images */
+
+.imgbackground1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/heroimage.png");
+}
+.imgbackground2 {
+    background-color: #d8d8d8;
+    color: black;
+}
+.imgbackground3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/backgroundimage1.png");
+}
+.imgbackground4 {
+    background-color: #323c6d;
+}
+.imgbackground5 {
+    background-color: #000000;
+}
+
+.hero-image {
+    height: 25%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+}
+
+.heading70px {
+    font-size: 70px;
+    margin: 4px;
+}
+
+.heading50px{
+    font-size: 50px;
+    margin: 0px;
+}
+
+.heading30px{
+    font-size: 30px;
+    margin: 1px;
+}
+
+.text1{
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.text2{
+    text-align: left;
+    color: black;
+    transform: translate(20%, -50%);
+}
+
+.text3{
+    text-align: left;
+    transform: translate(-80%, -50%);
+    color: white;
+}
+
+.text4{
+    text-align: left;
+    transform: translate(-70%, -50%);
+    color: white;
+    position: relative;
+}
+
+.hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 15px 40px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px white solid;
+    margin-top: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    transition: ease-in-out 0.7s;
+    text-transform: uppercase;
+}
+
+.hero-text button:hover {
+    border-radius: 25px;
+    background-color: #555;
+    color: white;
+}
+
+.hero-text .btnWhite {
+    color: black;
+    border: 3px black solid;
+}
+
+.hero-text .btnWhite:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(0, 0, 0);
+}
+
+.p-hero {
+    margin: 5px;
+}
+
+.p-hero4a {
+    width: 250px;
+    position: relative;
+    left: 50%;
+    bottom: 125px;
+    font-size: 15px;
+}
+
+.p-hero4b {
+    width: 250px;
+    position: relative;
+    left: 90%;
+    bottom: 250px;
+    font-size: 15px;
+}
+
+.p-hero5a {
+    width: 275px;
+    position: relative;
+    top: 45px;
+    font-size: 15px;
+}
+
+.p-hero5b {
+    width: 150px;
+    position: relative;
+    left: 350px;
+    bottom: 45px;
+    font-size: 15px;
+}
+
+.p-hero5c {
+    width: 150px;
+    font-size: 15px;
+}
+
+.imgblock2{
+    position: relative;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.srceen{
+    position: absolute;
+    top: 30px;
+}
+
+.imgblock3{
+    position: relative;
+    top: 50%;
+    transform: translate(70%, -50%);
+}
+
+.imgblock4{
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-size: 12px;
+}
+
+.imgblock4 .icon{
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.srceenphone{
+    position: absolute;
+    top: 45px;
+    left: 16px;
+    z-index: -1;
+}
+
+.imgblock5 img{
+    margin: 3px;
+}
+

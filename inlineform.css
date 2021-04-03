@@ -1,0 +1,58 @@
+#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 600px;
+    transform: translate(0%, -25%);
+    /* background: wheat; */
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-right: 15px;
+    transition: ease-in-out 0.7s;
+    padding-left: 20px;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input:hover{
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 5px 5px 0 0;
+}
+
+.message{
+    width: 685px;
+}
+
+#mess{
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    width: 175px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    transition: ease-in-out 0.7s;
+}
+
+#mess:hover{
+    background-color: black;
+    border-radius: 0;
+    color: white;
+    border: 3px solid;
+    cursor: pointer;
+}
